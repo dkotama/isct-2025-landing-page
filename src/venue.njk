@@ -1,0 +1,66 @@
+---
+title: ISCT 2025 - Venue Travel Information
+description: Learn more about the venue and travel information for ISCT 2025 in Bali, Indonesia.
+---
+
+{% extends "layouts/base.njk" %}
+
+{% block head %}
+<link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css" rel="stylesheet">
+{% endblock %}
+
+{% block content %}
+<div class="container content-space-t-1 content-space-t-lg-3" id="venue">
+  <h1 class="mb-4">Prime Plaza Hotel Sanur Bali</h1>
+  
+  <div class="row">
+    <!-- Left Column: Address and Contact Information -->
+    <div class="col-md-6">
+      <p>Prime Plaza Hotel Sanur Bali offers comprehensive conference and event facilities, making it a premier choice for meetings, conventions, and special events in Sanur.</p>
+      
+      <h3>Contact Information:</h3>
+      <ul class="list-unstyled">
+        <li><strong>Address:</strong> Jl. Hang Tuah No. 46, Sanur, Bali, Indonesia</li>
+        <li><strong>Phone:</strong> <a href="tel:+62361281781">+62 361 281781</a></li>
+        <li><strong>WhatsApp:</strong> <a href="https://wa.me/628113977007">+62 811 3977 007</a></li>
+        <li><strong>Email:</strong> <a href="mailto:mice@sanur.pphotels.com">mice@sanur.pphotels.com</a></li>
+        <li><strong>Website:</strong> <a href="https://www.sanur.pphotels.com/" target="_blank" rel="noopener noreferrer">Prime Plaza Hotel Sanur Bali</a></li>
+      </ul>
+    </div>
+    
+    <!-- Right Column: Google Map -->
+    <div class="col-md-6">
+      <div class="map-responsive">
+        <iframe
+        src="https://www.google.com/maps/embed/v1/place?key=AIzaSyAdJHLv1Tj3k-TUCwW3VMGgiclBDSrDt88
+            &q=Prime+Plaza,Sanur">
+          width="600"
+          height="450"
+          style="border:0;"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Gallery Section -->
+  <h2 class="mt-5 mb-4">Gallery</h2>
+  <div class="row gallery">
+    {% for item in gallery %}
+    <div class="col-6 col-md-4 col-lg-3 mb-4">
+      <a href="{{ '/assets/img/gallery/' | url }}{{ item.image }}" data-lightbox="venue-gallery" data-title="{{ item.alt }}">
+        <img src="{{ '/assets/img/gallery/' | url }}{{ item.image }}" class="img-fluid" alt="{{ item.alt }}">
+      </a>
+    </div>
+    {% endfor %}
+  </div>
+  
+</div>
+{% endblock %}
+
+{% block scripts %}
+<!-- Before the closing </body> tag -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
+{% endblock %}

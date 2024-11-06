@@ -1,0 +1,58 @@
+{# src/_includes/partials/header.njk #}
+<header class="navbar navbar-expand-lg navbar-end navbar-dark bg-primary">
+    <div class="container">
+        <nav class="js-mega-menu navbar-nav-wrap">
+            <a class="navbar-brand" href="{{ '/' | url }}" aria-label="ISCT2025">
+                ISCT2025
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-default">
+                    <i class="bi-list"></i>
+                </span>
+                <span class="navbar-toggler-toggled">
+                    <i class="bi-x"></i>
+                </span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav nav-pills">
+                    <!-- Nav Items -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" id="homeSubMenu" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false" href="#">Home</a>
+                        <div class="dropdown-menu" aria-labelledby="homeSubMenu" style="min-width: 230px;">
+                            <a class="dropdown-item" href="{{ '/about/' | url }}">About Conference</a>
+                            <a class="dropdown-item" href="{{ '/organizers/' | url }}">Organizing Committee</a>
+                        </div>
+                    </li>
+                                            <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="programSubMenu" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">Program</a>
+                            <div class="dropdown-menu" aria-labelledby="programSubMenu" style="min-width: 230px;">
+                                <a class="dropdown-item" href="#">Keynote Speakers</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="authorsSubMenu" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">Authors</a>
+                            <div class="dropdown-menu" aria-labelledby="authorsSubMenu" style="min-width: 230px;">
+                                <a class="dropdown-item" href="#">Author Instructions</a>
+                                <a class="dropdown-item" href="#">ISCT Call for Papers</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="venueTravelSubMenu" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">Venue/Travel</a>
+                            <div class="dropdown-menu" aria-labelledby="venueTravelSubMenu" style="min-width: 230px;">
+                                <a class="dropdown-item" href="/venue/">Conference Venue</a>
+                            </div>
+                        </li>
+                    <li class="nav-item ms-lg-auto mt-5">
+                        <a class="btn btn-dark" href="{{ '/registration/' | url }}">Registration</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+</header>

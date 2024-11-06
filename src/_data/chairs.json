@@ -1,0 +1,332 @@
+[
+  {
+    "category": "Conference Chairs",
+    "layout": "default",
+    "chairs": [
+      {
+        "name": "Dr. I Putu Agus Eka Darma Udayana",
+        "image": "blank.png",
+        "institution": "INSTIKI",
+        "location": "Bali, Indonesia"
+      }
+    ]
+  },
+  {
+    "category": "Co-Chairs",
+    "layout": "default",
+    "chairs": [
+      {
+        "name": "Cokorda Pramartha, Ph.D.",
+        "image": "blank.png",
+        "institution": "Udayana University",
+        "location": "Indonesia"
+      },
+      {
+        "name": "Erfan Rohadi, ST., M.Eng., Ph.D",
+        "image": "blank.png",
+        "institution": "Polinema",
+        "location": "Indonesia"
+      }
+    ]
+  },
+  {
+    "category": "Technical Program Committee Chairs",
+    "layout": "default",
+    "chairs": [
+      {
+        "name": "Aryo De Wibowo",
+        "image": "blank.png",
+        "institution": "Universitas Nusa Putra, Sukabumi",
+        "location": "Indonesia"
+      },
+      {
+        "name": "Ibnu Febry Kurniawan, Ph.D.",
+        "image": "blank.png",
+        "institution": "Universitas Negeri Surabaya",
+        "location": "Indonesia"
+      },
+      {
+        "name": "Ida Bagus Sarasvananda",
+        "image": "blank.png",
+        "institution": "INSTIKI, Bali-Indonesia",
+        "location": "Indonesia"
+      }
+    ]
+  },
+  {
+    "category": "General Affairs Chairs",
+    "layout": "default",
+    "chairs": [
+      {
+        "name": "Pradini Puspitaningayu., Ph.D.",
+        "image": "blank.png",
+        "institution": "Universitas Negeri Surabaya",
+        "location": "Indonesia"
+      },
+      {
+        "name": "Putu Sugiartawan",
+        "image": "blank.png",
+        "institution": "Okayama University",
+        "location": "Japan"
+      }
+    ]
+  },
+  {
+    "category": "Advisory Board",
+    "layout": "default",
+    "chairs": [
+      {
+        "name": "Prof. Wen-Chung Kao",
+        "image": "blank.png",
+        "institution": "CTSoc President",
+        "location": "IEEE"
+      },
+      {
+        "name": "Prof. Nobuo Funabiki",
+        "image": "blank.png",
+        "institution": "CTSoc Vice President",
+        "location": "IEEE"
+      }
+    ]
+  },
+  {
+    "category": "Finance Chairs",
+    "layout": "default",
+    "chairs": [
+      {
+        "name": "Paramitha Nerisafitra ",
+        "image": "blank.png",
+        "institution": "Universitas Negeri Surabaya",
+        "location": "Indonesia"
+      },
+      {
+        "name": "Rizqita Mutiarani",
+        "image": "blank.png",
+        "institution": "INSTIKI",
+        "location": "Indonesia"
+      }
+    ]
+  },
+  {
+    "category": "Keynote Chairs",
+    "layout": "default",
+    "chairs": [
+      {
+        "name": "Yan Watequlis Syaifudin, Ph.D.",
+        "image": "blank.png",
+        "institution": "Polinema",
+        "location": "Indonesia"
+      },
+      {
+        "name": "Wirayudi Aditama",
+        "image": "blank.png",
+        "institution": "INSTIKI",
+        "location": "Indonesia"
+      }
+    ]
+  },
+  {
+    "category": "Special Session Chairs",
+    "layout": "compact",
+    "chairs": [
+      {
+        "name": "Indrazno Siradjuddin, Ph.D.",
+        "image": "blank.png",
+        "institution": "Polinema",
+        "location": "Indonesia"
+      },
+      {
+        "name": "Dr. I Nyoman Anom Fajaraditya",
+        "image": "blank.png",
+        "institution": "INSTIKI",
+        "location": "Indonesia"
+      },
+      {
+        "name": "Dr. I Made Agus Wirawan",
+        "image": "blank.png",
+        "institution": "UNDIKSHA",
+        "location": "Indonesia"
+      },
+      {
+        "name": "Dr. Gede Angga Pradipta",
+        "image": "blank.png",
+        "institution": "ITB STIKOM Bali",
+        "location": "Indonesia"
+      },
+      {
+        "name": "Dr. Surya Dharma",
+        "image": "blank.png",
+        "institution": "UNUD",
+        "location": "Indonesia"
+      },
+      {
+        "name": "Dr. Ni Putu Sutramiani",
+        "image": "blank.png",
+        "institution": "UNUD",
+        "location": "Indonesia"
+      },
+      {
+        "name": "Abdul Rahman Patta, Ph.D.",
+        "image": "blank.png",
+        "institution": "UNM",
+        "location": "Indonesia"
+      },
+      {
+        "name": "Ida Bagus Ary Indra Iswara",
+        "image": "blank.png",
+        "institution": "INSTIKI",
+        "location": "Indonesia"
+      },
+      {
+        "name": "I Made Dwi Putra Asana",
+        "image": "blank.png",
+        "institution": "INSTIKI",
+        "location": "Indonesia"
+      },
+      {
+        "name": "I Made Surya Kumara",
+        "image": "blank.png",
+        "institution": "WARMADEWA",
+        "location": "Indonesia"
+      },
+      {
+        "name": "Dr. Ni Made Satvika Iswari",
+        "image": "blank.png",
+        "institution": "Primakara University",
+        "location": "Indonesia"
+      }
+    ]
+  },
+  {
+    "category": "Award Chairs",
+    "layout": "default",
+    "chairs": [
+      {
+        "name": "Ni Luh Wiwik Sri Rahayu G",
+        "image": "blank.png",
+        "institution": "INSTIKI",
+        "location": "Indonesia"
+      }
+    ]
+  },
+  {
+    "category": "Local Arrangement Chairs",
+    "layout": "default",
+    "chairs": [
+      {
+        "name": "Dr. Aniek Suryanti Kusuma, S.Kom., M.Kom",
+        "image": "blank.png",
+        "institution": "INSTIKI",
+        "location": "Indonesia"
+      },
+      {
+        "name": "Ni Putu Suci Meinarni, S.H., LL.M",
+        "image": "blank.png",
+        "institution": "INSTIKI",
+        "location": "Indonesia"
+      },
+      {
+        "name": "Ni Putu Widya Yuniari, S.T., M.T.",
+        "image": "blank.png",
+        "institution": "WARMADEWA",
+        "location": "Indonesia"
+      }
+    ]
+  },
+  {
+    "category": "Publication Chairs",
+    "layout": "compact",
+    "chairs": [
+      {
+        "name": "I Gede Iwan Sudipa, S.Kom., M.Cs.",
+        "image": "blank.png",
+        "institution": "INSTIKI",
+        "location": "Bali, Indonesia"
+      },
+      {
+        "name": "Gst. Ayu Vida Mastrika Giri",
+        "image": "blank.png",
+        "institution": "Universitas Udayana",
+        "location": "Bali, Indonesia"
+      },
+      {
+        "name": "Gede Aditra Pradnyana",
+        "image": "blank.png",
+        "institution": "Universitas Pendidikan Ganesha",
+        "location": "Bali, Indonesia"
+      },
+      {
+        "name": "Ngakan Nyoman Kutha Krisnawijaya",
+        "image": "blank.png",
+        "institution": "Universitas Pendidikan Nasional",
+        "location": "Bali, Indonesia"
+      },
+      {
+        "name": "Hendy Briantoro",
+        "image": "blank.png",
+        "institution": "Telkom University",
+        "location": "Indonesia"
+      },
+      {
+        "name": "Ida Ayu Gde Suwiprabayanti Putra",
+        "image": "blank.png",
+        "institution": "Universitas Udayana",
+        "location": "Bali, Indonesia"
+      }
+    ]
+  },
+  {
+    "category": "Web Chairs",
+    "layout": "compact",
+    "chairs": [
+      {
+        "name": "Komang Candra Brata",
+        "image": "blank.png",
+        "institution": "Okayama University",
+        "location": "Japan"
+      },
+      {
+        "name": "Irin Tri Anggraini",
+        "image": "blank.png",
+        "institution": "Okayama University",
+        "location": "Japan"
+      },
+      {
+        "name": "Mustika Mentari",
+        "image": "blank.png",
+        "institution": "Okayama University",
+        "location": "Japan"
+      },
+      {
+        "name": "Anak Agung Surya Perdana",
+        "image": "blank.png",
+        "institution": "Okayama University",
+        "location": "Japan"
+      },
+      {
+        "name": "I Nyoman Dharma Kotama",
+        "image": "blank.png",
+        "institution": "Okayama University",
+        "location": "Japan"
+      },
+      {
+        "name": "Putu Adi Pratama",
+        "image": "blank.png",
+        "institution": "UHN Ida Bagus Sugriwa Bali",
+        "location": "Indonesia"
+      }
+    ]
+  },
+  {
+    "category": "IEEE CTSoc",
+    "layout": "default",
+    "chairs": [
+      {
+        "name": "Charlotte Kobert",
+        "image": "blank.png",
+        "institution": "IEEE CTSoc",
+        "location": "USA"
+      }
+    ]
+  }
+]

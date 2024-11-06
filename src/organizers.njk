@@ -1,0 +1,51 @@
+---
+title: ISCT 2025 - Organizing Committee
+description: Meet the organizing committee for ISCT 2025, the premier global event for consumer technology professionals, organized by IEEE CTSoc.
+keywords: ISCT 2025, IEEE, Consumer Technology, Symposium, Bali, Indonesia, Sustainable Technology, Consumer Electronics, IoT, Artificial Intelligence, Augmented Reality, Virtual Reality, Wearable Devices, Smart Home Systems
+---
+
+{% extends "layouts/base.njk" %}
+
+{% block content %}
+
+<div class="container content-space-t-1 content-space-t-lg-3" id="organizers">
+  {% for section in chairs %}
+    <h3>{{ section.category }}</h3>
+    <div class="row">
+      {% for chair in section.chairs %}
+        <div class="
+          {% if section.layout == 'compact' %}
+            col-6 col-sm-4 col-md-3 col-lg-2 mb-4 small-card
+          {% else %}
+            col-12 col-sm-6 col-md-4 col-lg-3 mb-4
+          {% endif %}
+        ">
+          <div class="card">
+            <a href="#" class="card-transition-zoom">
+              <img class="card-img-top" src="{{ '/assets/img/chair/' | url }}{{ chair.image }}" alt="{{ chair.name }}">
+              <div class="card-body">
+                <h6 class="card-title">{{ chair.name }}</h6>
+                <p class="card-text">{{ chair.institution }}<br>
+                  <small class="text-muted">{{ chair.location }}</small>
+                </p>
+              </div>
+            </a>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  {% endfor %}
+</div>
+
+<link rel="stylesheet" href="{{ '/assets/css/organizers.css' | url }}">
+{% endblock %}
+
+{# 
+Default layout
+class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4" 
+#}
+
+{# 
+Compact Layout
+class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4" 
+#}

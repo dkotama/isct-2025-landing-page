@@ -1,0 +1,21 @@
+/* src/assets/css/custom.css */
+
+/* Welcome Section Styles */
+.welcome-section {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.welcome-section img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 50%;
+}
+
+.welcome-section h2 {
+  margin-top: 0;
+}
+
+.welcome-section p {
+  font-size: 1.1em;
+}

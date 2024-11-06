@@ -1,0 +1,16 @@
+
+.small-card .card-title {
+    /* Adjust the title size */
+    font-size: 0.9em;    
+}
+
+.small-card .card-text {
+    /* Adjust the title size */
+    font-size: 0.7em;    
+}
+
+.small-card .card-img-top {
+  /* Adjust the image size */
+  height: 150px;
+  object-fit: cover;
+}
